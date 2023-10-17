@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Dashboard</title>
+    <link rel="stylesheet" href="./bootstrap-4.0.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container mt-2">
+        <div class="row">
+            <div class="col-sm-3 small-bg text-white">
+                <ul class="list-group">
+                    <h3>Menu</h3>
+                    <li class="">Overview</li>
+                    <li class="list-group">Courses</li>
+                    <li class="list-group">Planning</li>
+                    <li class="list-group">Statistics</li>
+                    <li class="list-group">Calendar</li>
+                </ul>
+                <hr>
+                <h3>Account</h3>
+                <button class="btn btn-light">messages</button>
+                <button class="btn btn-danger active">Settings</button>
+            </div>
+            <div class="col-sm-9 text-light largest-bg pt-3 pb-3">
+                <h3>Account Settings</h3>
+                <div class="pt-2">
+                    <button class="btn btn-light">My dashboard</button>
+                    <button class="btn btn-danger">Profile</button>
+                    <button class="btn btn-light">FAQ</button>
+                </div>
+                <h4 class="pt-2">Profile</h4>
+                <p>Please edit your profile below</p>
+                <div class="radius">
+                    <div class="imgProfile">
+
+                    </div>
+                        <!-- <img src="./assets/christina-wocintechchat-com-S3GrMiUhpNU-unsplash.jpg" alt="profile-picture" class="imgProfile"> -->
+                    <div class="button-flex">
+                        <button class="btn btn-danger m-3">Change</button>
+                        <button class="btn btn-light">Import</button>
+                    </div>
+                </div>
+                <!-- form -->
+                <form action="">
+                    <div class="d-flex mt-3">
+                        <div class="mr-5">
+                            <label for="firstname">First Name</label>
+                            <input type="text" placeholder="firstname" class="form-control ">
+                        </div>
+                        <div>
+                            <label for="lastname">Last Name</label>
+                            <input type="text" placeholder="lastname" class="form-control ">
+                        </div>
+                    </div>
+                        <div class="d-flex mt-3">
+                            <div class="mr-5">
+                                <label for="email">Email</label>
+                                <input type="text" placeholder="email" class="form-control ">
+                            </div>
+                            <div>
+                                <label for="tel">Telephone:</label>
+                                <input type="tel" placeholder="telephone" class="form-control">
+                            </div>
+                        </div>
+                   
+                    <button class="btn btn-danger mt-3">Submit</button>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>

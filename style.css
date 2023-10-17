@@ -1,0 +1,38 @@
+.largest-bg{
+    background-color: rgb(8, 22, 31);
+}
+
+.small-bg{
+    background-color: rgba(3, 170, 156, 0.999);
+}
+
+
+body{
+    background-color: #f9f9f9;
+
+}
+
+ul{
+    list-style: none;
+    padding: 20px;
+}
+
+.radius{
+    display: flex;
+}
+
+.button-flex{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+
+
+.imgProfile{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    background-color: rebeccapurple;
+    background: url(./assets/christina-wocintechchat-com-S3GrMiUhpNU-unsplash.jpg);
+    background-size: cover;
+}
